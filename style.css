@@ -59,20 +59,17 @@ body{
  position: absolute;
  top: 100%;
  width: 20vw;
-                    }
-
- .lista-menu__titulo,
+}
+.lista-menu__titulo,
  .lista-menu__item {
         padding: 1em;
         background-color: var(--branco);
-                    }
-
+                    
+}
 .lista-menu__titulo {
                         color: var(--laranja);
-                    font-weight: 700;}
-
-
-                        
+                    font-weight: 700;
+}
 .lista-menu__link {
                            background: var(--azul-degrade);
                            -webkit-background-clip: text;
@@ -83,11 +80,9 @@ body{
 .container_botão {
     display: none;
 }
-
 .lista-menu {
     display: none;
 }
-
 .banner{
     background-color: #002F52;
     color: #EBECEE;
@@ -104,7 +99,6 @@ body{
     text-align: justify;
     text-align: center;
 }
-
 .banner-pesquisa {
     background-color: transparent;
     border: 2px solid black;
@@ -116,12 +110,7 @@ body{
     background: url("./img/lupa.svg") no-repeat ;
     background-position: 1em;
     font-size: 20px;
-    }
-
-
-
-
-
+}
 .carrossel__titulo {
         color: var(--laranja);
         background-color: var(--branco);
@@ -130,6 +119,44 @@ body{
         font-size: 18px;
         font-weight: 700;
         padding: 1em 0 0.5em 0;
-        }
-           
-    
+}
+.swiper-slide img{
+    width: 45%;
+}
+.card-descricao{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0,5em;
+}
+.card-botoes{
+    display: flex;
+    justify-content: space-between;
+}
+.botoes{
+    display: flex;
+}
+.card{
+    background-color: #ffffffb7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: center;
+    margin: 2em 5em;
+    align-items: center;
+    padding: 1em 3em;
+}
+.descricao-titulo{
+    color: var(--laranja);
+    font-weight: 700;
+    text-align: center;
+    font-size: larger;
+}
+.mais-vendidos-livros{
+    height: 370px;
+}
+.botoes-itens{
+    margin: 6px;
+}
+.descricao-final{
+    font-size: larger;
+    margin: 1em;
+}
